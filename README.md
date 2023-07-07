@@ -1,4 +1,11 @@
-# Automount non-ext4 SD cards on your steam deck
+# Automount non-EXT4 SD cards on your steam deck
+
+The steam deck uses a shell script in order to mount SD cards automatically on startup as well as when hotswapped. However, this script only automatically
+mounts EXT4 formatted SD cards, however, this can be changed very easily. Heres a short demo of how to modify the script for NTFS and BTRFS formatted 
+SD cards.
+
+## The Script
+
 File is originally located at
 ```bash
 /usr/lib/hwsupport/sdcard-mount.sh
