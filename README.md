@@ -57,7 +57,7 @@ Using compression will save you a ton of space on your SD cards depending on the
 without performance loss.(Possibly even performance gains in some cases)
 
 ## Conclusion
-After those lines have been modified, you can just restart your steamdeck,
+After those lines have been modified, just save the script, and restart your steamdeck,
 and the SD card should automatically mount.
 
 Example modified versions of the scripts for [BTRFS](https://github.com/justinlime/sdcard-mount.sh/blob/master/sdcard-mount.btrfs.sh) and [NTFS](https://github.com/justinlime/sdcard-mount.sh/blob/master/sdcard-mount.ntfs.sh) can be found within this repo
