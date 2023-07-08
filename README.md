@@ -50,7 +50,7 @@ from:
 to:
 ```bash
 if [[ ${ID_FS_TYPE} == "btrfs" ]]; then
-        OPTS+=",compress-force=zstd:3"
+        OPTS+=",compress-force=zstd:3,autodefrag"
     fi
 ```
 Using compression will save you a ton of space on your SD cards depending on the game,
