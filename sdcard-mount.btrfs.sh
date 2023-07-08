@@ -70,7 +70,7 @@ do_mount()
     #fi
 
     if [[ ${ID_FS_TYPE} == "btrfs" ]]; then
-        OPTS+=",compress-force=zstd:3"
+        OPTS+=",compress-force=zstd:3,autodefrag"
     fi
 
     # We need symlinks for Steam for now, so only automount ext4 as that'll Steam will format right now
